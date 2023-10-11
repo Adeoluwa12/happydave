@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>HAPPYDAVE SUPPORTS</title>
+</head>
+<body>
+        <section class="header">
+        
+
+                
+                <!--Navbar Section-->
+            <nav class="navbar">
+            <div class="navbar-head">
+                <a href="/" id="navbar__logo">HAPPYDAVE <br>SUPPORTS</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+           
+           
+                <ul>
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
+                    <li><a href="/orphanage">OUR ORPHANAGES</a></li>
+                    <li><a href="/donate">DONATE</a></li>
+                    <li><a href="/user/register">REGISTER/LOGIN</a></li>
+                </ul>
+            </div>
+
+            <a href="javascript:void(0);"
+                class="icon" onclick="home()">
+                <i onclick="myFunction(this)"
+                    class="fa fa-plus-circle">
+                </i>
+            </a>
+
+            
+
+    </nav>
+    
+    
+    
+    
+    
+    
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">The needy needs <br><span>HELP & SUPPORT</span></h1>
+            <p class="hero__description"><strong>Your penny can go a long way in saving <br> Thousands of Children</strong></p>
+        </div>
+    </div>
+    
+
+</section>        
+        
+        <!-- About Section-->
+        <div class="main" id="about">
+            <div class="main__container">
+                <img src="/images/aaa.jpg">
+                
+                <div class="main__content">
+                    <h1></h1>
+                    <h2>We're connected to hundreds of Orphanages around AFRICA  </h2>
+                    <p>You can help the less privileged ones secure a <strong> FUTURE</strong></p>
+                    <button class="main__btn"><a href="/about">ABOUT US</a></button>
+                </div>
+            </div>
+        </div>
+
+
+         <!-- Contact Section-->
+         <div class="main-1" id="about">
+            <div class="main-1__container">
+                <img class="image" src="/images/1.jpg">
+                
+                <div class="main-1__content">
+                    <h1></h1>
+                    <h2>You can also be a part of this mission </h2>
+                    <p>It is to help the majority of African Orphans through various <strong>Orphanages</strong></p>
+                    <button class="main-1__btn"><a href="/contact">CONTACT US</a></button>
+                </div>
+            </div>
+        </div>
+   
+
+   
+
+
+    <!-- Features Section-->
+    <div class="main" id="sign-up">
+        <div class="main__container">
+            <div class="main__content">
+                <h2>Sign up today!!!</h2>
+                <p>Help build an Orphan <br>Help build the Community.</p>
+                <button class="main__btn"><a href="/user/register">Sign Up</a></button>
+            </div>
+            <div class="main__img__container">
+                <div class="main__img--card" id="card-2">
+                    <img class="image" src="images/11.jpg">
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/">How it works</a>
+                    <a href="/">Testimonials</a>
+                    <a href="/">Careers</a>
+                    <a href="/">Terms of Service</a> 
+                </div>
+
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contacts</a>
+                    <a href="/">Support</a>
+                    <a href="/">Ambassadors</a>
+                </div>
+          </div>
+
+          <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Orphanages</h2>
+                    <a href="/">West Africa</a>
+                    <a href="/">North Africa</a>
+                    <a href="/">South Africa</a>
+                    <a href="/">East Africa</a>
+                    <a href="/">Central Africa</a>
+                </div>
+
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a> <a href="/">Facebok</a>
+                    <a href="/">Youtube</a>  <a href="/">Twitter</a> 
+                </div>
+            </div>
+
+
+            
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">HAPPYDAVE SUPPORTS</a>
+                </div>
+                <p class="website__rights">© HAPPYDAVE SUPPORTS 2023. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+                
+
+    <script>
+ 
+        // Function to toggle the bar
+        function home() {
+            let x = document.getElementById("navLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+ 
+        // Function to toggle the plus menu into minus
+        function myFunction(x) {
+            x.classList.toggle("fa-minus-circle");
+        }
+    </script>
+
+
+           <!-- JavaScript to handle form submission -->
+           <script type="application/json" src="js/toggle.js"></script>
+
+  
+</body>
+</html>
